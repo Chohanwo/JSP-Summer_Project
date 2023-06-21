@@ -1,0 +1,71 @@
+@charset "EUC-KR";
+
+*{
+	font-family: 'Noto Sans KR', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	border-collapse: collapse;
+	color: black;
+
+}
+
+#sideMenu ul li{
+	
+}
+
+h1{
+	text-align: center;
+}
+
+
+.big-box{
+	width: 100%;
+	height: 880px;
+}
+
+
+.left-box{
+	width: 10%;
+	height: 880px;
+	float: left;
+	border-right: 1px solid gray;
+
+}
+
+.sideMenu ul li{
+	list-style: none;
+	margin-left: -30px;
+	
+
+}
+
+
+.middle-box{
+	border-right: 1px solid gray;
+	width: 90%;	
+	height: 880px;
+	float: center;
+	text-align: center;
+	padding-top: 90px;
+	font-size: 20px;
+}
+
+
+.btn{
+	float: center;
+	text-align: center;
+
+	
+}
+
+.btn-detail {
+	border-radius: 100px;
+	width: 300px;
+	height: 50px;
+	border: 2px solid black;
+	background-color: white;
+	margin-top: 10px;
+	font-size: 20px;
+	
+}
+

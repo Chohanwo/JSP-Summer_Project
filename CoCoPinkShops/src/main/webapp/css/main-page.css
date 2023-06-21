@@ -1,0 +1,185 @@
+
+@import url(join.css);
+* {
+    box-sizing: border-box;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, 
+h6, pre, code, form, fieldset, legend, textarea, p, 
+blockquote, th, td, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+}
+  
+  body {
+    margin: 0;
+    min-width: 992px;
+    font-family: "Helvetica";
+  }
+
+  
+  @keyframes dropHeader {
+    0% {
+      top: -5rem;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  /* navbar */
+  
+  .active{
+    background: rgba(0,0,0, 0.5);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    -webkit-transition-duration:0.4s;
+    -webkit-transition-timing-function:ease;
+  }
+  
+  .deactive{
+    
+    background-color: transparent;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    -webkit-transition-duration:0.4s;
+    -webkit-transition-timing-function:ease;
+  }
+  .navbar #logo {
+    line-height: 60px;
+    
+
+  }
+  .navbar #logo img{
+    vertical-align: middle;
+  }
+  
+  .navbar #menu {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .navbar #menu li {
+    float:left;
+    margin-left: 50px;
+    line-height: 70px;
+  }
+  
+  .navbar #menu li a {
+    text-decoration: none;
+    color: rgb(23, 23, 23);
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .navbar #menu li a:hover {
+  	color: rgb(107, 107, 107);
+  }
+  
+.slider-1 {
+    position: relative; 
+    top: -100px;
+    
+}
+.slider-1 > .slides > div {
+    height: 900px;
+}
+
+  /* item_list */
+  
+  .product_list_area{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .item_list_area > .list_tit {
+    margin: 12% 0 3% 0;
+    border-bottom: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .item_list_area > .product_list_area {
+    padding: 0 10px;
+    text-align: center;
+    color: #1c1c1c; 
+    
+  }
+  
+  .product_list_area ul li {
+    margin: 0 0 7% 0;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    font-size: 12px;
+  }
+
+  .product_cont {
+    padding: 0 10px;
+    text-align: left;
+    color: #1c1c1c;
+  }
+
+  .item_title-box > a > .item_name {
+    display: block;
+    padding: 5px 0 0 0;
+    font-size: 12px;
+    color: #212121;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item_title-box > a > .item_name_explain {
+    display: block;
+    padding: 5px 0 0 0;
+    color: #888;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    line-height: 1.2em;
+    white-space: normal;
+}
+
+.item_money-box {
+    padding: 15px 0 0 0;
+    line-height: 1;
+}
+
+.item_money-box > .item_price {
+    font-weight: 600;
+    color: rgb(33, 33, 33);
+    font-family: NanumSquare, Raleway, "Malgun Gothic", "맑은 고딕", "Nanum Gothic", "나눔 고딕", AppleGothic, Dotum, "Apple SD Gothic Neo", 돋움, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
+    padding: 0;
+    font-size: 12px;
+}
+
+  /* footer */
+  .footer{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  
+  }
+  .footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
